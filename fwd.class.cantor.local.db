@@ -6,7 +6,7 @@ $TTL    86400
 2419200 ; Expire
 86400   ; Negative Cache TTL
 );
-@		                                IN		NS	server-1.class.cantor.local
+@		                                IN		NS	server-1.class.cantor.local.
 server-1.class.cantor.local.	        IN		A	192.168.7.110
 server-2.class.cantor.local.			IN		A 	192.168.7.109
 server-3.class.cantor.local.			IN		A 	192.168.7.108
