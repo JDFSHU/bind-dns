@@ -1,0 +1,14 @@
+$TTL    86400
+@               IN              SOA             server-1.class.cantor.local. root.class.cantor.local. (
+1       ; Serial
+604800  ; Refresh
+86400   ; Retry
+2419200 ; Expire
+86400   ; Negative Cache TTL
+);
+@		                                IN		NS	server-1.class.cantor.local
+server-1.class.cantor.local.	        IN		A	192.168.7.110
+server-2.class.cantor.local.			IN		A 	192.168.7.109
+server-3.class.cantor.local.			IN		A 	192.168.7.108
+cisco-router.class.cantor.local.        IN      A   192.168.7.2
+
