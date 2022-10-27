@@ -8,6 +8,6 @@ $TTL    86400
 );
 @		IN		NS	    server-1.class.cantor.local.
 110		IN		PTR	    server-1.class.cantor.local.
-109		IN		PTR	    server-2.class.cantor.local.
-108 	IN		PTR	    server-3.class.cantor.local.
+109	    IN		PTR	    server-2.class.cantor.local.
+108     IN		PTR	    server-3.class.cantor.local.
 2       IN      PTR     cisco-router.class.cantor.local.
